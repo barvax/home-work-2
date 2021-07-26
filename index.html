@@ -8,26 +8,45 @@
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="styles.css">
    <link rel="icon" href="images/noughts-and-crosses.png" >
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div>
+   
     
-    <div class="images" id = "images">
+    <div >
     <h1 id="myH1">Player 1 Choose simbol..</h1>
-    <img id="myImage1" src="images/toy-space-ship.png" onclick="chooseImage( myImage1,'myImage1','myImage11')" >
+   
+    <div class="images" id = "images">
+    <div>
+        <img id="myImage1" src="images/toy-space-ship.png" onclick="chooseImage( myImage1,'myImage1','myImage11')" >
+        <h3 id="myImage11"></h3>
+      
+
+    </div>
+    <div>
+
+        <img id="myImage2" src="images/dragon-toy.png" onclick="chooseImage( myImage2,'myImage2','myImage22')">
+        <h3 id="myImage22"></h3>
+    </div>
+  <div>
+       <img id="myImage3" src="images/boat-hand-drawn-toy.png" onclick="chooseImage( myImage3,'myImage3','myImage33')">
+    <h3 id="myImage33"></h3>
+</div>
     
-    <img id="myImage2" src="images/dragon-toy.png" onclick="chooseImage( myImage2,'myImage2','myImage22')">
-    
-    <img id="myImage3" src="images/boat-hand-drawn-toy.png" onclick="chooseImage( myImage3,'myImage3','myImage33')">
+   <div>
     <img id="myImage4" src="images/dice-dotted-cube-toy.png" onclick="chooseImage( myImage4,'myImage4','myImage44')">
+    <h3 id="myImage44"></h3>
+
+   </div>
+   
     </div>
-    <div class="players">
-    <h3 id="myImage11"></h3><h3 id="myImage22"></h3><h3 id="myImage33"></h3><h3 id="myImage44"></h3>
-    
+ 
     </div>
-    </div>
+
     <div class="grid-container" id="grid">
       <div class="grid-item" id="box1" onclick="myPlace('0','0'),EnterSign('box1')"></div>
       <div class="grid-item" id="box2" onclick="myPlace('0','1'), EnterSign('box2')"></div>
