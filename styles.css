@@ -1,0 +1,50 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #dead28;
+    padding: 10px;
+   
+    margin-top:0px;
+    margin-left:100px;
+    visibility:hidden;
+  }
+  #myH1{
+      padding-left:150px;
+      
+      
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width:100px;
+    height:100px;
+  }
+  img{
+      width:80px;
+      padding:25px;
+      border-radius:20px;
+  }
+  h3{
+      display:inline-block;
+      width:80px;
+      padding-left:55px;
+      margin-top:0px;
+  }
+  .images >img:hover{
+      background-color:#ffe49c;
+  }
+  .images{
+      padding-left:25px;
+      
+  }
+  .final{
+      width:300px;
+      height:300px;
+      position:absolute;
+      background-color:red;
+      top:0;
+      
+  }
