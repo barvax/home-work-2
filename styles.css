@@ -5,7 +5,7 @@
     padding: 10px;
    
     margin-top:0px;
-    margin-left:100px;
+    margin-left:120px;
     visibility:hidden;
   }
   #myH1{
@@ -19,26 +19,37 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    width:100px;
-    height:100px;
+    width:30px;
+    height:30px;
   }
   img{
-      width:80px;
-      padding:25px;
+      width:30px;
+      
       border-radius:20px;
+     
+     
   }
   h3{
-      display:inline-block;
-      width:80px;
-      padding-left:55px;
-      margin-top:0px;
+      
+      width:70px;
+     margin-left: 70px;
+      margin-top:5px;
+      font-size: 16px;
+  }
+  .players{
+
+    display: flex;
   }
   .images >img:hover{
       background-color:#ffe49c;
   }
   .images{
-      padding-left:25px;
+      padding-left:40px;
       
+  }
+  .images >img{
+     margin-left: 40px;
+     padding: 25px;
   }
   .final{
       width:300px;
